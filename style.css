@@ -1,0 +1,44 @@
+
+html {
+    margin: 0px;
+}
+
+body { 
+    margin: 2%;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    /* color: white; */   /* try uncomment it to see if you like it more */
+    background-color: black;
+    border-style: solid dotted solid dotted;
+    border-radius: 20px;
+    transition-property: padding;
+    transition-duration: 2s;
+    
+  }
+
+li:hover {
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;  
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
